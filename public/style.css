@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a { color: inherit; } 
+
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.faq-title a {
+  text-decoration: none;
+}
+
+#device-title{
+  font-size: 23px;
+}
+
+.header {
+  width: 100%;
+  height: 5vh;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header h2 {
+  font-size: 35px;
+  font-weight: 500;
+  border-bottom: 3px solid blue;
+}
+
+.categories {
+  width: 80%;
+  margin-top: 2rem;
+}
+
+.categories ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  gap: 1.5rem;
+}
+
+.categories ul li {
+  margin-top: 1rem;
+  list-style-type: none;
+  border: 2px solid grey;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: black;
+}
+
+.categories ul li:hover {
+    color:  white;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.categories ul li a {
+    text-decoration: none;
+}
+
+/* .categories ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.categories ul li a:hover{
+    color: white;
+    transition: 0.5s;
+} */
+
+.content {
+  width: 80%;
+  min-height: 50vh;
+  margin-top: 2rem;
+  margin-top: 10rem;
+}
+
+.content-box h3 {
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.accordion {
+    margin-top: 3rem;
+}
+
+.one {
+  margin-top: 2rem;
+}
+
+
+
+.printer-title {
+  font-size: 23px;
+}
+
+#printer-second-title {
+  margin-top: 2rem;
+}
+
+.connection-title{
+  font-size: 23px;
+}
+
+
+
+#connection-second-title{
+  margin-top: 2rem;
+}
+
+.email-title {
+  font-size: 23px;
+}
+
+#email-second-title {
+  margin-top: 2rem;
+}
+
+.ticket-title {
+  font-size: 23px;
+}
+
+.note {
+  margin-top: 2.5rem;
+}
+
+footer {
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-text {
+  color: white;
+  font-size: 18px;
+}
