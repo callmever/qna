@@ -7,7 +7,7 @@ const port = 5500;
 
 app.use(express.static("public"));
 
-app.use('/public/index.html', express.static(path.join(__dirname + '/public')));
+// app.use('/public/index.html', express.static(path.join(__dirname + '/public')));
 
 app.use((req, res) => {
     res.status(404)
